@@ -1,0 +1,14 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "Correction SAE_S6",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm test ."
+  },
+  "author": "Leymat Nicolas, Veslin Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
