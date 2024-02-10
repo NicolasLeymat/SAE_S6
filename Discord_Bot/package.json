@@ -2,13 +2,16 @@
   "name": "discord_bot",
   "version": "1.0.0",
   "description": "Correction SAE_S6",
-  "main": "bot.js",
+  "main": "./src/bot.js",
   "scripts": {
     "test": "npm test ."
   },
   "author": "Leymat Nicolas, Veslin Lucas",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.14.1"
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.69",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
   }
 }
