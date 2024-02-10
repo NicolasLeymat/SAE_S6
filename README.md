@@ -8,6 +8,8 @@
     - npm init
     - npm install discord.js
     - npm install dotenv
+    - npm install discord-api-types
+    - npm install @discordjs/rest
 
   # Step 3 
     - Créer le folder src 
