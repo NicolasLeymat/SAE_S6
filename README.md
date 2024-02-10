@@ -20,21 +20,21 @@
     - Dans le folder commands créer un folder tools
     - votre project tree devrais resembler à ça : 
       |-- Discord_Bot
-      |  |-- node_modules
-      |  |--|-- ... Toutes vos dépendances
-      |  |  |-- src
-      |  |  |  |-- commands
-      |  |  |  |  |-- tools
-      |  |  |  |  | |*- vos commands
-      |  |  |  |-- events
-      |  |  |  |  |-- client
-      |  |  |  |  | |*- vos events client
-      |  |  |  |-- functions
-      |  |  |  |  |-- handlers
-      |  |  |  |  | |*- vos handlers
-      |  |  |--|*- bot.js
-      |  |  |*- .env
-      |  |  |*- package-lock.json
+         |-- node_modules
+         |--|-- ... Toutes vos dépendances
+            |-- src
+               |-- commands
+                  |-- tools
+                    |*- vos commands
+               |-- events
+                  |-- client
+                    |*- vos events client
+               |-- functions
+                  |-- handlers
+                    |*- vos handlers
+            |--|*- bot.js
+            |*- .env
+            |*- package-lock.json
       |--|--|*- package.json  
 
   
