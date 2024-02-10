@@ -7,6 +7,7 @@
   # Step 2 ( à l'intérieur du folder du bot discord, faire ces commandes) : 
     - npm init
     - npm install discord.js
+    - npm install dotenv
 
   # Step 3 
     - Créer le folder src 
