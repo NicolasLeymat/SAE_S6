@@ -32,10 +32,12 @@
             |-- functions
               |-- handlers
                 |*- vos handlers
-         |--|*- bot.js
+            |*- bot.js
          |*- .env
          |*- package-lock.json
       |--|*- package.json  
+
+
 
   
   
