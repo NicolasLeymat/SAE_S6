@@ -7,8 +7,8 @@ Client = new Discord.Client({
     }),
 fs = require('fs');
 Client.commands = new Discord.Collection(),
-Client.cooldowns = new Discord.Collection();
 Client.commandArray =  [];
+Client.cooldowns = new Discord.Collection();
 
 const functionFolders = fs.readdirSync('./src/functions');
 for (const folder of functionFolders) {

@@ -55,6 +55,17 @@
     - ensuite dans la partie bot permissions selectionner Administrator
     - Ouvrer l'URL et ajouter le à votre discord
 
+### Idée pour le tp
+  
+  # Exercise 1 Centralisation de nos commandes et de nos évènements :
+    - Partie 1 : Création du fichier bot.js
+    - Partie 2 : Création d'évènements à l'interieur du fichier bot.js
+    - Partie 3 : Création de commands à l'interieur du fichier bot.js
+  
+  # Exercise 2 Décentralisation de nos commandes et de nos évènements pour plus de clareté : 
+    - Partie 1 : Adaptation du fichier bot.js pour gérer des fichier externe avec l'usage de fs
+    - Partie 2 : Création de fichier 'handler' pour nous permettre de lire nos fichier de commandes et d'évènements
+    - Partie 3 : Création d'interaction avec l'utilisateur de la commandes
 
 
   
