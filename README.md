@@ -48,7 +48,7 @@
     - en haut à droite vous verrez un bouton avec marqué New application cliqué dessus et donnée lui le nom que vous voulez
   
   ### Step 2 :
-    - Un fois votre bot créer copié votr applicationID et collé le dans le handleCommands.js au niveau du ClientID
+    - Un fois votre bot créer copié votre applicationID et collé le dans le handleCommands.js au niveau du ClientID
     - Ensuite rendez-vous dans la partie Bot cliqué sur reset token et copier le dans le .env avec le nom que vous voulez (conseil : gardez le meme nom)
   
   ### Step 3 :
