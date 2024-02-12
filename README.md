@@ -1,4 +1,6 @@
-# SAE_S6
+<p align="center" style="margin-bottom: 0px !important;">
+  <h1 align="center" style="margin-top: 0px;">SAE_S6</h1>
+</p>
 
 ## Initialisation du projet
   ### Step 1 : 
