@@ -35,7 +35,25 @@
             |*- bot.js
          |*- .env
          |*- package-lock.json
-      |--|*- package.json  
+      |--|*- package.json
+
+# Initialisation du bot
+    Dans cette partie nous allons voir comment créer le bot récupérer son token puis l'ajouter sur un seerveur discord
+  # Step 1 :
+    - Si vous n'avez pas de serveur de test, créer un serveur discord qui vous serviras de test pour votre bot
+    - Copier l'id de votre serveur discord et collé le dans le handleCommands.js au niveau du guildID
+    - Ensuite rendez-vous sur [text](https://discord.com/developers/applications)
+    - en haut à droite vous verrez un bouton avec marqué New application cliqué dessus et donnée lui le nom que vous voulez
+  
+  # Step 2 :
+    - Un fois votre bot créer copié votr applicationID et collé le dans le handleCommands.js au niveau du ClientID
+    - Ensuite rendez-vous dans la partie Bot cliqué sur reset token et copier le dans le .env avec le nom que vous voulez (conseil : gardez le meme nom)
+  
+  # Step 3 :
+    - Allé dans OAuth2, URL Generator
+    - Dans la partie scopes selectionner bot
+    - ensuite dans la partie bot permissions selectionner Administrator
+    - Ouvrer l'URL et ajouter le à votre discord
 
 
 

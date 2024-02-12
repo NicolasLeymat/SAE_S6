@@ -2,6 +2,7 @@ require('dotenv').config();
 const token = process.env.token;
 const Discord = require('discord.js'),
 Client = new Discord.Client({
+    //L'intent 32767 nous permet d'avoir tout les intents
     intents: 32767
     }),
 fs = require('fs');

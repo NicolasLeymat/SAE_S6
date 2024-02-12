@@ -15,7 +15,9 @@ module.exports = (Client) => {
                 //console.log(`Command : ${command.data.name} has passed throught the handler`);
             }
         }
+        //Id de l'application 
         const clientId = '1205874900003455006';
+        //Id du serveur sur lequel le bot est
         const guildId = '';
         const rest = new REST({version: '10'}).setToken(process.env.token);
         try{
