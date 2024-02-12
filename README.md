@@ -44,7 +44,7 @@
   ### Step 1 :
     - Si vous n'avez pas de serveur de test, créer un serveur discord qui vous serviras de test pour votre bot
     - Copier l'id de votre serveur discord et collé le dans le handleCommands.js au niveau du guildID
-    - Ensuite rendez-vous sur [text](https://discord.com/developers/applications)
+    - Ensuite rendez-vous sur https://discord.com/developers/applications
     - en haut à droite vous verrez un bouton avec marqué New application cliqué dessus et donnée lui le nom que vous voulez
   
   ### Step 2 :
