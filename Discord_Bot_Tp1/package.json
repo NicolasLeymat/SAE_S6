@@ -1,0 +1,17 @@
+{
+  "name": "discord_bot_tp1",
+  "version": "1.0.0",
+  "description": "Ratio",
+  "main": "bot.js",
+  "scripts": {
+    "test": "."
+  },
+  "author": "Leymat Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.69",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.4"
+  }
+}
