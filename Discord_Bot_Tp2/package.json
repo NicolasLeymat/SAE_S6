@@ -1,17 +1,17 @@
 {
-  "name": "discord_bot",
+  "name": "discord_bot_tp1",
   "version": "1.0.0",
-  "description": "Correction SAE_S6",
-  "main": "./src/bot.js",
+  "description": "Ratio",
+  "main": "bot.js",
   "scripts": {
-    "test": "npm test ."
+    "test": "."
   },
-  "author": "Leymat Nicolas, Veslin Lucas",
+  "author": "Leymat Nicolas",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^2.2.0",
     "discord-api-types": "^0.37.69",
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.1"
+    "dotenv": "^16.4.4"
   }
 }
