@@ -1,13 +1,14 @@
 require('dotenv').config();
 const token = process.env.token;
 const Discord = require('discord.js'),
-Events = require('discord.js'),
 { REST, Routes } = require('discord.js'),
 { SlashCommandBuilder } = require('discord.js'),
 Client = new Discord.Client({
     //L'intent 32767 nous permet d'avoir tout les intents
     intents: 32767
     });
+
+	
 Client.commands = [];
 
 const rest = new REST().setToken(token);
@@ -40,7 +41,7 @@ Client.login(token);
 
 Client.on("messageCreate", async message =>{
     if(message.author.bot || !message.content=="ping")return;
-    message.reply("connard");
+    message.reply("pong");
 });
 
 Client.on("interactionCreate", async interaction =>{
